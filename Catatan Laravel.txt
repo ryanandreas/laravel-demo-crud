@@ -1,0 +1,6 @@
+//membuat table 
+php artisan make:migration create_posts_table 
+php artisan migrate
+
+//membuat file contoller 
+php artisan make:controller PostController
