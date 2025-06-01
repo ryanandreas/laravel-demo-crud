@@ -8,7 +8,7 @@
 <body>
   
   @auth
-  <p>you are logged in</p>
+  <p>you are logged in Change Commit 1</p>
   <form action="/logout" method="POST">
     @csrf
     <button>Log Out</button>
